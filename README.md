@@ -1,16 +1,35 @@
-# local_database_app
+# Local Database App - Notes Manager
 
-A new Flutter project.
+A Flutter application for creating and managing notes, using SQLite for local storage.
+
+## Features
+
+- **Create Notes**: Add new notes with a title and description.
+- **Read Notes**: View a list of all saved notes.
+- **Update Notes**: Edit existing notes.
+- **Delete Notes**: Remove notes from the database.
+- **Local Storage**: All data is persisted locally using `sqflite`.
+
+## Tech Stack
+
+- **Framework**: Flutter
+- **Language**: Dart
+- **Database**: SQLite (via `sqflite` package)
+- **State Management**: `setState` (Local state interactions)
+
+## Screenshots
+
+![App Preview](assets/screenshots/preview.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1.  Clone the repository.
+2.  Run `flutter pub get` to install dependencies.
+3.  Run `flutter run` to start the application on your emulator or device.
 
-A few resources to get you started if this is your first Flutter project:
+## Dependencies
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `flutter`
+- `sqflite`
+- `path`
+- `path_provider`
