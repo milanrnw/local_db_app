@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     DbHelper db = DbHelper.getInstance;
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Note App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

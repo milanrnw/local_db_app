@@ -82,7 +82,7 @@ class _HomescreenState extends State<Homescreen> {
   void _showNoteBottomSheet({Map<String, dynamic>? note}) {
     showModalBottomSheet(
       context: context,
-      isScrollControlled: true, // Important for keyboard to not cover the sheet
+      isScrollControlled: true,
       builder: (context) {
         return Padding(
           padding: EdgeInsets.only(
